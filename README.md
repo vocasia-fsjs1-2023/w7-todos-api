@@ -18,6 +18,11 @@ semua perubahan penambahan dilakukan dengan method javascript
 - lakukan indexing array[index] dengan metode array find untuk menemukan index yang kalian ingin lakukan perubahan untuk update dan delete
   untuk id tiap post cukup integer, misal post pertama kasih id 1, post selanjutnya cek postingan terakhir dan tambah increment ++ pada id sebelumnya, sehingga post kedua akan memiliki id 2 dan seterusnya,
 
+  ### Postman Usage
+
+  - didalam folder api-doc terdapat file dengan nama api.postman-collection.json
+  - import file tersebut pada postman milik kalian dan lakukan semua kegiatan development pada postman collection yang telah disediakan
+
 ## Structure Data tiap Todos
 
 const array = []
