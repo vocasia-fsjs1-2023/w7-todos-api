@@ -18,7 +18,7 @@ app.post('/todos', (req, res) => {
     const title = body.title;
     const description = body.description;
     const status = "created";
-    const tanggal_created = new Date();
+
     const tanggal_updated = new Date();
 
     const updatedYear = tanggal_updated.getFullYear();
@@ -70,14 +70,14 @@ app.patch('/todos/:id', (req, res) => {
     const id = param.id
     const status = body.status
 
-    let kegiatan_edited;
+
     for ( let i = 0; i < ToDoList.length; i++) {
         if (ToDoList[i].id == id) {
-            // kegiatan_edited = ToDoList[i];
+
 
             ToDoList[i].status = status;
 
-            // ToDoList[i] = kegiatan_edited;
+
 
             console.log(ToDoList);
         }
