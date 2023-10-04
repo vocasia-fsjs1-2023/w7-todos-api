@@ -43,7 +43,7 @@ contoh
 [{
   "id":1,
   "title": "membuat API",
-  "description": "membuat API menggunakan express js dan dilakukan hit menggunakan psotman",
+  "description": "membuat API menggunakan express js dan dilakukan hit menggunakan postman",
   "status": "created",
   "created_at": "2023-09-25",
   "updated_at": "2023-09-25"
